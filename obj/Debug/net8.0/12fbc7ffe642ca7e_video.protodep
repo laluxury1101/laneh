@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Video.cs \
+obj\Debug\net8.0\Protos/VideoGrpc.cs: Protos/video.proto

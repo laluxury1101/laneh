@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ltL1JzAIYGiSgXCiXoQFpL7vwuoPm8K29u7Do4xMQLw=",
+  "Source": "VideoCallGrpcService",
+  "BasePath": "_content/VideoCallGrpcService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

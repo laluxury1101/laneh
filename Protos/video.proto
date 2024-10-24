@@ -1,0 +1,30 @@
+// Protos/video.proto
+syntax = "proto3";
+
+option csharp_namespace = "VideoCall.Grpc";
+
+service VideoCallService {
+  rpc JoinCall (JoinRequest) returns (stream CallResponse);
+  rpc SendSignal (SignalMessage) returns (SignalAck);
+}
+
+message JoinRequest {
+  string user = 1;
+}
+
+message CallResponse {
+  string user = 1;
+  string sdp = 2;
+  string type = 3;
+}
+
+message SignalMessage {
+  string sdp = 1;
+  string type = 2;
+  string toUser = 3;
+  string fromUser = 4;
+}
+
+message SignalAck {
+  bool success = 1;
+}
